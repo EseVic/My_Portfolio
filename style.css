@@ -1,5 +1,8 @@
 /* *****index.html section***** */
-
+*{
+  padding: 0;
+  margin: 0;
+}
 body{
   padding: 0px;
   margin: 0px;
@@ -19,6 +22,7 @@ body{
   font-size: large;
   font-family: 'Tahoma, Geneva, Verdana, sans-serif;
   font-weight bold;
+  margin: 20px 20px;
 }
 .navbar{
   width: 86%;
@@ -44,6 +48,7 @@ ul a{
   color: darkslategray;
   margin-top: -3%;
   transition: -4s ease;
+  left: 100px;
 }
 
 ul li a:hover{
@@ -118,11 +123,27 @@ ul li a:hover{
 .icons i:hover{
   color: rgb(44, 42, 177);
 }
-/* *****Social Media***** */
+
+/* *****contact section***** */
 .contact{
   margin-top: 3rem;
 }
-
+.contact-container h1{
+  font-weight: bold;
+  color: rgb(136, 31, 31);
+  margin: 20px 20px;
+  font-style: normal;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000;
+}
+.btn:hover{
+  background-color: rgb(17, 212, 212);
+  color: aliceblue;
+  border: 1px solid;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 4px;
+}
 .contact-options {
   display: flex;
   width: 100%;
@@ -157,4 +178,103 @@ ul li a:hover{
  margin-top: 0.7rem;
  display: inline-block;
  font-size: 0.8rem;
+}
+/* This is the skills section */
+.skills{
+  margin: 0;
+  padding: 0;
+}
+.skills h2{
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  margin: 0.1rem auto 2rem;
+}
+
+.skills ul{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 0.9rem;
+}
+.skills:hover {
+  background-color: var(--color-bg-variant);
+}
+
+/* This is About page */
+body{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 100%;
+  background: url(bluebck.img.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.about-content{
+  margin-left: 7%;
+  margin-top: 6%;
+}
+.about-content h2{
+  font-size: 50px;
+  color: rgb(36, 32, 30);
+}
+.about-content h5{
+  font-size: 20px;
+  color: rgb(red, green, blue);
+  margin: 20px 20px;
+  padding: 10px;
+}
+
+.about-content p{
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  margin: 20px 20px;
+  padding: 10px 10px;
+}
+.press{
+    width: 10%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    text-align: right;
+    justify-content: space-between;
+}
+.Hobbies h2{
+
+}
+
+.image{
+  height: 60%;
+  width: 30%;
+  right: 100px;
+  padding: 10p;
+  border-radius: 10px;
+  object-fit: contain;
+  position: absolute;
+  right: 80px;
+  bottom: 30px;
+  border-radius: 25px;
+}
+.lady img{
+  position: absolute;
+  height: 140%;
+  left: 40%;
+  transform: translate(-55%);
+  bottom: 0;
+  transition: left 2s;
+}
+.image:hover .Me{
+  left: 55%;
+}
+
+.container:hover .lady{
+  left: 55%;
 }
