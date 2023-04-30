@@ -278,3 +278,22 @@ body{
 .container:hover .lady{
   left: 55%;
 }
+
+/* this is the skills section */
+.skills{
+    width: 100%;
+    background: url(bluebck.img.png);
+    height: 100vh;
+
+}
+.skills h2{
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  color: blueviolet;
+}
+.skills ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 0.9rem;
+}

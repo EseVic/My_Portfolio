@@ -5,45 +5,58 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Contact</title>
-  <link rel="stylesheet" href="style.css
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="Contact">
-        <div class="contact-container">
-              <h1>CONTACT ME</h1>
-              <form class="info">
-                <label for="YourNmae">Enter your Full Name</label>
-                  <input type="text" id="YourName" placeholder="Your Full Name" required/><br>
-                  <label for="email">Email</label>
-                  <input type="email" id="email" placeholder="Your Email" required/><br>
-                  <label for="PhoneNumber">Enter your phone number</label>
-                  <input type="PhoneNumber" id="PhoneNumber" placeholder="Enter your phone number" required/><br>
-                  <button type='submit' class='btn'>Send Message</button>
-                </form>
-          </div>
+  <section class="contact">
+    <h2>CONTACT ME</h2>
 
-          <div class="icon" >
-            <a href="https://www.linkedin.com/in/victoria-iria-698b7914a"></a> 
-           <a href="https://twitter.com/chantelvic"></a>
-           <a href="https://github.com/EseVic"></a>
-          </div>
-
-          <div class='address'></div>
-              <div class='contact-option'>
-                <i class="fa-solid fa-envelope">email</i>
-                  <h6>esevic111@gmail.com</h6>
-              </div>
-            
-                <div class='contact-option'>
-                  <h5>whatsapp</h5>
-                  <h6>+2347062776106</h6>
-                  <a href='https://api.whatsapp.com/send?phone=+2347062776109' target='_blank'>Send a message</a>
-              </div>
-
-              <div class='footer-copy'>
-                <h5>Veecode. All rights reserved</h5>
-             </div>
+    <div class="contact-container">
+      <div class="get-in-touch-head">
+        <h3>GET IN TOUCH</h3>
       </div>
-  </div>
+
+      <div class="getin">
+        <p class="contact-p">
+          Contact me for your all you web application such as <br> and backend web designing, 
+          developing, graphic designin, digital marketing, <br> handling of all social media account etc. 
+        </p>
+        <div class="social-icons">
+          <div>
+            <a href="https://twitter.com/chantelvic"> Twitter: @chantelvic</a>
+          </div>
+          <div>
+            <a href="https://www.linkedin.com/in/victoria-iria-698b7914a"> LinkedIn @IriaVictoria</a>
+          </div>
+          <div>
+            <a href="https://github.com/EseVic"> Github @EseVic</a>
+          </div>
+          <div>
+            <a href="https://www.instagram.com/vykie_special/"> instagram @vykie_special</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-container">
+      <form>
+        <div class="form-control">
+          <label for="Name" class="form-t"> Name : </label>
+          <input type="text" placeholder="What is your Name?" id="name" />
+        </div>
+        <div class="form-control">
+          <label for="Email" class="form-t"> Email : </label>
+          <input type="text" placeholder="Enter your email" id="email" />
+        </div>
+        <div class="form-message">
+          <label for="Email" class="form-t"> Message : </label>
+          <input type="text" placeholder="How May I Be Of Help?" id="message" />
+        </div>
+
+        <button class="form-btn">Submit</button>
+      </form>
+    </div>
+  </section>
+
 </body>
 </html>
