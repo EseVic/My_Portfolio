@@ -1,0 +1,160 @@
+/* *****index.html section***** */
+
+body{
+  padding: 0px;
+  margin: 0px;
+}
+.main{
+  width: 100%;
+  background: url(bluebck.img.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.heading{
+  color: rgb(63, 63, 194);
+  font-size: large;
+  font-family: 'Tahoma, Geneva, Verdana, sans-serif;
+  font-weight bold;
+}
+.navbar{
+  width: 86%;
+  display: flex;
+  margin: auto;
+  padding: 15px 0;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+ul{
+  margin-top: -4%;
+}
+ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px 16px;
+}
+ul a{
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: darkslategray;
+  margin-top: -3%;
+  transition: -4s ease;
+}
+
+ul li a:hover{
+  color: rgb(230, 104, 59);
+}
+
+.info{
+  margin-left: 7%;
+  margin-top: 6%;
+}
+.info h1{
+  font-size: 65px;
+  color: rgb(36, 32, 30);
+}
+
+.info h3{
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+.info span{
+  color: rgb(230, 104, 59);
+}
+.info a{
+  text-decoration: wavy;
+  color: azure;
+  background: rgb(35, 31, 30);
+  margin: 26px 0;
+  padding: 10px 18px;
+  border-radius: 10px;
+  display: inline-block;
+  transition: 4s e;
+}
+.info a:hover{
+  background: rgb(59, 174, 209);
+}
+.image{
+  height: 60%;
+  width: 30%;
+  right: 100px;
+  padding: 10p;
+  border-radius: 10px;
+  object-fit: contain;
+  position: absolute;
+  right: 80px;
+  bottom: 30px;
+  border-radius: 25px;
+}
+.image img{
+  position: absolute;
+  height: 140%;
+  left: 40%;
+  transform: translate(-55%);
+  bottom: 0;
+  transition: left 2s;
+}
+.image:hover .Me{
+  left: 55%;
+}
+
+.icons{
+  text-decoration: none;
+  color: #000;
+}
+.icons i{
+  margin-left: 7%;
+  color: #000;
+  margin-right: -60px;
+  font-size: 40px;
+  transition: .4s ease;
+}
+.icons i:hover{
+  color: rgb(44, 42, 177);
+}
+/* *****Social Media***** */
+.contact{
+  margin-top: 3rem;
+}
+
+.contact-options {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 5rem;
+  gap: 4rem;
+}
+
+.contact-option {
+  background: var(--color-bg-variant);
+  padding: 1.2rem 3rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: var(--transition);
+
+}
+
+.contact-option:hover {
+  background: transparent;
+  border-color: var(--color-primary-varient);
+}
+
+.contact-option-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-option a {
+ margin-top: 0.7rem;
+ display: inline-block;
+ font-size: 0.8rem;
+}
