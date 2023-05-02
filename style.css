@@ -162,7 +162,7 @@ ul li a:hover{
   text-align: justify;
   justify-content: space-between;
 }
-.social-icons ul a{
+.social-icons ul{
   font-size: 10px;
   color: darkslategray;
   margin-top: -3%;
@@ -204,6 +204,7 @@ body{
   line-height: 24px;
   margin: 20px 20px;
   padding: 10px 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .press a{
     width: 10%;
@@ -217,15 +218,33 @@ body{
 .press:hover a{
   background-color: rgb(80, 150, 50);
 }
+
+.download a{
+  width: 10%;
+  display: flex;
+  margin: 10px 10px;
+  padding: 10px 0;
+  text-align: left;
+  justify-content: space-between;
+  transition: -4s ease;
+}
+.download:hover a{
+background-color: rgb(221, 35, 82);
+}
+
 .Hobbies h2{
-font-size: large;
-color: rgb(136, 31, 31);
-font-weight: 100;
-font-style: normal;
+font-size: larger;
+color: rgb(238, 26, 26);
+font-weight: bolder;
+font-style: oblique;
+te
 text-justify: auto;
 }
 .Hobbies ul{
-
+  list-style: none;
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 5px solid;
 }
 
 .image{
@@ -256,7 +275,7 @@ text-justify: auto;
   left: 55%;
 }
 
-/* this is thfe skills section */
+/* this is the skills section */
 .skillsection{
   width: 100%;
   background: url(bluebck.img.png);
