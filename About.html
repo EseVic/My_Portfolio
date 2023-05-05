@@ -1,60 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ABOUT ME</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to Font Awesome -->
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="container">
-      <div class="about-content">
-       
-        <h5 class="center">Get To Know</h5>
-        <h2 class="ho center">About Me</h2>
-        <div class="about">
-          <p>
-            Victoria Iria is an ambitious young lady who is pasionate about <br />
-            problem-solving and creating efficient solutions.<br />
-            She applies her knowledge and technical skills in solving<br />
-            meaningful problems and making difference.<br />
-            She started her Tech career in January 2023, where she was<br />
-            admitted into Alx to study Software Engineer. <br />
-            She is also currently doing her training at<br />
-            TIIDELab Pre-fellowship Training Programe.
-          </p>
-          <div class="aboutImage">
-            <img src="IMG_blue2.png" alt="An Image of Victoria" class="lady" />
+    <title>About</title>
+</head>
+<body>
+  
+    <!-- Start of header Section -->
+    <header class="container nav">
+        <Nav class="menu">
+            <h1>Veecode</h1>
+            <ul class="menulist">
+                <li><a href="Index.Html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="About.html">SERVICES</a></li>
+                <li><a href="Skills.html">SKILLS</a></li>
+                <li><a href="contact.html">CONTACT ME</a></li>
+            </ul>
+            <div class="menu_btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </Nav>
+    </header>
+    <!-- End of header Section -->
+    <main>
+        <div class=" container">
+          <div class='about-me-image'> 
+            <img src="IMG_blue2.png"  alt=''/>
           </div>
+          <div class='about-content' >
+                <h5 class='center'>Get To Know</h5>
+                <h2 class='ho center'>About Me </h2>
+                  <p>
+                    Victoria Iria is an ambitious young lady who is pasionate about <br />
+                    problem-solving and creating efficient solutions.<br />
+                    She applies her knowledge and technical skills in solving<br />
+                    meaningful problems and making difference.<br />
+                    She started her Tech career in January 2023, where she was<br />
+                    admitted into Alx to study Software Engineer. <br />
+                    She is also currently doing her training at<br />
+                    TIIDELab Pre-fellowship Training Programe.
+                  </p>
+                <a href="cv.pdf"download class="btn">See My Resume</a>
+                <a href="contact.html" class="btn-primary">Let's Talk</a>
+          </div>
+          
+            <div class="fun">
+              <h5 >Moments</h5>
+              <h2 class="ho">Gallery</h2>
+              <div class="aboutImage">
+                <div class="gallery-size">
+                    <img class="pic" src="photo 1.jpg" alt="">
+                </div>
+                <div class="gallery-size">
+                    <img class="pic" src="phot 2.jpg" alt="">
+                </div>
+                <div class="gallery-size">
+                  <img class="pic" src="workplace.jpg" alt="">
+              </div>
+                <div class="gallery-size">
+                    <img class="pic" src="photo 4.JPG" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="hobbies">
+              <h2>Hobbies</h2>
+              <div class="list">
+              <ul>
+                  <li>Reading</li>
+                  <li>Traveling</li>
+                  <li>Researching</li>
+                  <li>Seeing Movies</li>
+              </ul>
+            </div>
+            </div>
         </div>
-        
-        <div class="combined">
-         <div class="download">
-            <a href="cv.pdf" download class="btn">See My Resume</a>
-          </div>
-         <div class="press">
-           <a href="contact.html" class="btn btn-primary">Let's Talk</a><br />
-          </div>
-        </div>
-      </div>
+    </main>
 
-      <div class="Hobbies">
-        <h2>Hobbies</h2>
+    <!-- Start of Footer page -->
+    <footer class="container footer-width">
+        <h2><a href="#">Veecode</a></h2>
         <ul>
-          <li>Reading</li>
-          <li>Traveling</li>
-          <li>Researching</li>
-          <li>Seeing Movies</li>
+            <li><a href="Index.Html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="style.css">SKILLS</a></li>
+            <li><a href="contact.html">CONTACT ME</a></li>
         </ul>
-      </div>
-
-      <h2>Photo gallery</h2>
-      <div class="gallery">
-         <img src="photo 1.jpg" alt=""><img src="phot 2.jpg" alt=""><img src="workplace.jpg" alt=""><img src="photo 4.JPG" alt="">
-      </div>
-      
-    </div>
-
-  </body>
+        <div class='footer-icon' >
+          <a href="https://twitter.com/chantelvic"> Twitter: @chantelvic</a>
+          <a href="https://www.linkedin.com/in/victoria-iria-698b7914a"> LinkedIn @IriaVictoria</a>
+          <a href="https://github.com/EseVic"> Github @EseVic</a>
+          <a href="https://www.instagram.com/vykie_special/"> instagram @vykie_special</a>
+        </div>
+        <div class='footer-copy'>
+         <small>&copy; Veecode. All rights reserved</small>
+       </div>
+    </footer>
+ <!-- End of Footer Page -->
+ <script src="https://kit.fontawesome.com/c54145bb07.js" crossorigin="anonymous"></script>
+</body>
 </html>
